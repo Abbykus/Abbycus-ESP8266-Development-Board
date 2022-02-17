@@ -18,8 +18,8 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 - UART supporting baud rates up to 4.608 Mbits/sec.
 
 ## SPECIFICATIONS
-### MECHANICAL
-### ELECTRICAL
+  ### MECHANICAL
+  ### ELECTRICAL
 
 ## APPLICATION EXAMPLES
 
