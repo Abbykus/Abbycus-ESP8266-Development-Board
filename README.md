@@ -27,6 +27,7 @@ The board can accept either 5 volts or 3.3 volts. 5 volts is normally supplied v
 5 volt power is regulated down to 3.3 volts using a compact linear regulator. 3.3 volts can also be input on the 3.3V breakout pin.
 Typical operating current can range from microamps in deep sleep mode to approximately 160 milliamps when transmitting WiFi data.
 #### *BREAKOUT PIN DESCRIPTION*
+Signal designators on the bottom of the PCB rotating clockwise:
 - **RST** Chip reset - active low.
 - **ADC** 10 bit analog to digital converter (ADC).
 - **EN** Chip enable - active high.
