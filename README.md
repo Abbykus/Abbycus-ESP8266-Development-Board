@@ -3,11 +3,11 @@
 ![QDEV-ESP8266-PCB-BOT](https://user-images.githubusercontent.com/99380815/154390222-5f573b5b-d5a9-4f52-8c54-1c0e80d5f53c.png)
 
 ## DESCRIPTION
-The QDEV-ESP8266 board is a multipurpose Internet Of Things (IOT) module based on the AI-Thinker ESP-12F development module (Espressif ESP8266 mcu). 
+The QDEV-ESP8266 board is a multipurpose Internet Of Things (IOT) module based on the AI-Thinker ESP-12F development module (Espressif ESP8266 SOC). 
 The QDEV-ESP8266 is a powerful and cost effective development/product ready platform with a 'dongle' style form factor.
 
 ## FEATURES
-- Tensilica L106 32 bit low power CPU.
+- Espressif Tensilica L106 32 bit low power CPU.
 - 80 / 160 Mhz CPU clock speed.
 - 80 KBytes of SRAM.
 - 4 MBytes of flash memory.
