@@ -4,7 +4,7 @@
 
 ## DESCRIPTION
 The QDEV-ESP8266 board is a multipurpose Internet Of Things (IOT) module based on the AI-Thinker ESP-12F development module (Espressif ESP8266 SOC). 
-The QDEV-ESP8266 is a powerful and cost effective development/product ready platform with a 'dongle' style form factor which can plug directly into a standard USB port.
+The QDEV-ESP8266 is a powerful and cost effective development/product ready platform with a 'dongle' style form factor which includes a male USB-A connector allowing direct plugin to a PC/laptop/Raspberry Pi/etc.
 
 ## FEATURES
 - Espressif Tensilica L106 32 bit low power CPU.
@@ -23,8 +23,14 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 
 ###   ELECTRICAL
 
+## USAGE
+
 ## APPLICATION EXAMPLES
 
-## 
+## FIRMWARE DEVELOPMENT
+Firmware can be developed on several platforms such as the Arduino IDE, PlatformIO on VSCode, or the Espressif ESP-IDF development environment. 
+The code examples included here were written using the [PlatformIO IDE](https://platformio.org/install/ide?install=vscode).
+While the Arduino IDE is relatively simple, the advanced features of PlatformIO make it much more compelling and useful to developers. 
+The Espressif ESP-IDF offers more detailed control of certain features but lacks the rich library support of either the Arduino IDE or PlatformIO and is specific to Espressif devices.
 
 
