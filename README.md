@@ -30,7 +30,9 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 ## FIRMWARE DEVELOPMENT
 Firmware can be developed on several platforms such as the Arduino IDE, PlatformIO on VSCode, or the Espressif ESP-IDF development environment. 
 The code examples included here were written using the [PlatformIO IDE](https://platformio.org/install/ide?install=vscode).
+
 While the Arduino IDE is relatively simple, the advanced features of PlatformIO make it much more compelling and useful to developers. 
+
 The Espressif ESP-IDF offers more detailed control of certain features but lacks the rich library support of either the Arduino IDE or PlatformIO and is specific to Espressif devices.
 
 
