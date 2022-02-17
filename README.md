@@ -19,8 +19,7 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 
 ## SPECIFICATIONS
 ###   MECHANICAL
-![PCB_QDEV_ESP8266_DIM_V1 2](https://user-images.githubusercontent.com/99380815/154401399-217d812b-d3b1-43d4-b4f0-474945c3968d.png)
-
+![PCB_QDEV_ESP8266_DIM_V1 2](https://user-images.githubusercontent.com/99380815/154401655-a657988f-43b5-4292-a79f-05efef374700.png)
 
 ###   ELECTRICAL
 
