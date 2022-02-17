@@ -27,30 +27,30 @@ The board can accept either 5 volts or 3.3 volts. 5 volts is normally supplied v
 5 volt power is regulated down to 3.3 volts using a compact linear regulator. 3.3 volts can also be input on the 3.3V breakout pin.
 Typical operating current can range from microamps in deep sleep mode to approximately 160 milliamps when transmitting WiFi data.
 #### *BREAKOUT PIN DESCRIPTION*
-- **RST** Chip reset - active low.
-- **ADC** 10 bit analog to digital converter (ADC).
-**EN** Chip enable - active high.
-**IO16** GPIO 16 / Wake from deep sleep.
-**IO14** GPIO 14 / HSPI CLK.
-**IO12** GPIO 12 / HSPI_MISO.
-**IO13** GPIO13 / HSPI_MOSI / UART0_CTS.
-**3.3V** Output from internal regulator or Input to board if not powered from USB.
-**CS0** Not user available.
-**MISO** Not user available.
-**IO9** Not user available.
-**GND** Board ground connect.
-**+5V** Connected to USB 5V input.
-**IO10** Not user available.
-**MOSI** Not user available.
-**SCLK** Not user available.
-**GND** Board ground connect.
-**IO15** GPIO15 / MTDO / HSPICS / UART0_RTS.
-**IO2** GPIO2 / UART1_TXD.
-**IO0** GPIO0 / HSPI_MISO / I2S_DATA.
-**IO4** GPIO4.
-**IO5** GPIO5 / IR_R.
-**RXD** UART0_RXD / GPIO3.
-**TXD** UART0_TXD / GPIO1.
+-**RST** Chip reset - active low.
+-**ADC** 10 bit analog to digital converter (ADC).
+-**EN** Chip enable - active high.
+-**IO16** GPIO 16 / Wake from deep sleep.
+-**IO14** GPIO 14 / HSPI CLK.
+-**IO12** GPIO 12 / HSPI_MISO.
+-**IO13** GPIO13 / HSPI_MOSI / UART0_CTS.
+-**3.3V** Output from internal regulator or Input to board if not powered from USB.
+-**CS0** Not user available.
+-**MISO** Not user available.
+-**IO9** Not user available.
+-**GND** Board ground connect.
+-**+5V** Connected to USB 5V input.
+-**IO10** Not user available.
+-**MOSI** Not user available.
+-**SCLK** Not user available.
+-**GND** Board ground connect.
+-**IO15** GPIO15 / MTDO / HSPICS / UART0_RTS.
+-**IO2** GPIO2 / UART1_TXD.
+-**IO0** GPIO0 / HSPI_MISO / I2S_DATA.
+-**IO4** GPIO4.
+-**IO5** GPIO5 / IR_R.
+-**RXD** UART0_RXD / GPIO3.
+-**TXD** UART0_TXD / GPIO1.
 
 ## USAGE
 
