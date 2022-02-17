@@ -4,7 +4,7 @@
 
 ## DESCRIPTION
 The QDEV-ESP8266 board is a multipurpose Internet Of Things (IOT) module based on the AI-Thinker ESP-12F development module (Espressif ESP8266 SOC). 
-The QDEV-ESP8266 is a powerful and cost effective development/product ready platform with a 'dongle' style form factor.
+The QDEV-ESP8266 is a powerful and cost effective development/product ready platform with a 'dongle' style form factor which can plug directly into a standard USB port.
 
 ## FEATURES
 - Espressif Tensilica L106 32 bit low power CPU.
@@ -16,7 +16,13 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 - 1 channel 10-bit Analog to Digital converter (ADC).
 - 9 GPIO's available with PWM and low power wakeup capability.
 - UART supporting baud rates up to 4.608 Mbits/sec.
-- 
 
+## SPECIFICATIONS
+### MECHANICAL
+### ELECTRICAL
+
+## APPLICATION EXAMPLES
+
+## 
 
 
