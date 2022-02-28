@@ -23,9 +23,11 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 
 ### ELECTRICAL
 #### *POWER*
-The board can accept either 5 volts or 3.3 volts. 5 volts is normally supplied via the USB connector but can also be input on the +5V breakout pin.
+The board can accept either 5 volts or 3.3 volts. 5 volts is normally supplied via the USB-A connector but can also be input on the +5V breakout pin.
 5 volt power is regulated down to 3.3 volts using a compact linear regulator. 3.3 volts can also be input on the 3.3V breakout pin.
-Typical operating current can range from microamps in deep sleep mode to approximately 160 milliamps when transmitting WiFi data.
+**NOTE:** The board is not 5V tolerant. Board power on the 3.3V input or any I/O pin should not exceed 3.3V.
+Typical operating current can range from microamps in deep sleep mode to approximately 160 milliamps when transmitting WiFi data. 
+
 #### *BREAKOUT PIN DESCRIPTION*
 Signal designators on the bottom of the PCB rotating clockwise:
 - **RST** Chip reset - active low.
@@ -45,21 +47,24 @@ Signal designators on the bottom of the PCB rotating clockwise:
 - **MOSI** Not user available.
 - **SCLK** Not user available.
 - **GND** Board ground connect.
-- **IO15** GPIO15 / MTDO / HSPICS / UART0_RTS.
-- **IO2** GPIO2 / UART1_TXD.
-- **IO0** GPIO0 / HSPI_MISO / I2S_DATA.
+- **IO15** GPIO15 / MTDO / HSPICS / UART0_RTS. ** STRAPPING PIN **
+- **IO2** GPIO2 / UART1_TXD. ** STRAPPING PIN **
+- **IO0** GPIO0 / HSPI_MISO / I2S_DATA. ** STRAPPING PIN **
 - **IO4** GPIO4.
 - **IO5** GPIO5 / IR_R.
 - **RXD** UART0_RXD / GPIO3.
-- **TXD** UART0_TXD / GPIO1.
+- **TXD** UART0_TXD / GPIO1. ** STRAPPING PIN **
 
 #### *NOT USER AVAILABLE PINS*
-Several pins labeled "Not user available" are used internally by the module to connect to the 4MB flash chip. These signals are provided on the breakout pins but should not be connected externally.
+Several pins labeled "Not user available" are used internally by the ESP-12F module. These signals are provided on the breakout pins but should not be connected externally.
 
 #### *STRAPPING PINS*
-Three GPIO pins are used by the ESP8266 to control boot mode as follows:
+Three GPIO pins are used by the ESP8266 to control boot mode. The pin level during boot is as follows:
 - **IO0** UART download mode - pulldown. Boot from flash - floating or pullup. 
-- **IO2** 
+- **IO2** UART download mode - pullup. Boot from flash - floating or pullup.
+- **IO15** UART download mode - pulldown. Boot from flash - pulldown.
+Additionally TXD0 should be held high during boot.
+The QDEV ESP8266 manages the state of the strapping pins during boot but any user circuitry connected to these pins should not interfere with the boot states shown above. 
 
 ## USAGE
 
