@@ -53,7 +53,13 @@ Signal designators on the bottom of the PCB rotating clockwise:
 - **RXD** UART0_RXD / GPIO3.
 - **TXD** UART0_TXD / GPIO1.
 
+#### *NOT USER AVAILABLE PINS*
 Several pins labeled "Not user available" are used internally by the module to connect to the 4MB flash chip. These signals are provided on the breakout pins but should not be connected externally.
+
+#### *STRAPPING PINS*
+Three GPIO pins are used by the ESP8266 to control boot mode as follows:
+- **IO0** UART download mode - pulldown. Boot from flash - floating or pullup. 
+- **IO2** 
 
 ## USAGE
 
