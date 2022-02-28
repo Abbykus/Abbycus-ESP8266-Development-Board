@@ -46,7 +46,7 @@ Signal designators on the bottom of the PCB rotating clockwise:
 - **MISO** Not user available.
 - **IO9** Not user available.
 - **GND** Board ground connect.
-- **+5V** Connected to USB 5V input.
+- **+5V** Input to the on-board 3.3V regulator (also connected to the USB-A 5V input).
 - **IO10** Not user available.
 - **MOSI** Not user available.
 - **SCLK** Not user available.
