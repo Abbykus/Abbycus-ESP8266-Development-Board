@@ -1,6 +1,5 @@
 # QDEV-ESP8266
 ![IMG_20220227_211106](https://user-images.githubusercontent.com/99380815/155886137-8354b025-064f-463b-b2ff-134bc2cd164e.jpg)
-/154390222-5f573b5b-d5a9-4f52-8c54-1c0e80d5f53c.png)
 
 
 ## DESCRIPTION
