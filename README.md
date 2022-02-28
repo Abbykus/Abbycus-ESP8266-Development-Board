@@ -63,6 +63,7 @@ Three GPIO pins are used by the ESP8266 to control boot mode. The pin level duri
 - **IO0** UART download mode - pulldown. Boot from flash - floating or pullup. 
 - **IO2** UART download mode - pullup. Boot from flash - floating or pullup.
 - **IO15** UART download mode - pulldown. Boot from flash - pulldown.
+
 Additionally TXD0 should be held high during boot.
 The QDEV ESP8266 manages the state of the strapping pins during boot but any user circuitry connected to these pins should not interfere with the boot states shown above. 
 
