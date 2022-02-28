@@ -16,6 +16,8 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 - 1 channel 10-bit Analog to Digital converter (ADC).
 - 9 GPIO's available with PWM and low power wakeup capability.
 - UART supporting baud rates up to 4.608 Mbits/sec.
+- Auto-programming circuit (eliminates the 'boot' button).
+- On board user LED (IO0).
 
 ## SPECIFICATIONS
 ### MECHANICAL
@@ -68,8 +70,11 @@ Additionally TXD0 should be held high during boot.
 The QDEV ESP8266 manages the state of the strapping pins during boot but any user circuitry connected to these pins should not interfere with the boot states shown above. 
 
 ## USAGE
+The QDEV-ESP8266 is programmed through the USB-A connector.
 
 ## APPLICATION EXAMPLES
+### Wireless UART Bridge
+The QDEV-ESP8266 can function as a UART bridge between two or more computers. 
 
 ## FIRMWARE DEVELOPMENT
 Firmware can be developed on several platforms such as the Arduino IDE, PlatformIO on VSCode, or the Espressif ESP-IDF development environment. 
