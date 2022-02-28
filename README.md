@@ -27,6 +27,7 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 #### *POWER*
 The board can accept either 5 volts or 3.3 volts. 5 volts is normally supplied via the USB-A connector but can also be input on the +5V breakout pin.
 5 volt power is regulated down to 3.3 volts using a compact linear regulator. 3.3 volts can also be input on the 3.3V breakout pin.
+
 **NOTE:** The board is not 5V tolerant. Board power on the 3.3V input or any I/O pin should not exceed 3.3V.
 Typical operating current can range from microamps in deep sleep mode to approximately 160 milliamps when transmitting WiFi data. 
 
