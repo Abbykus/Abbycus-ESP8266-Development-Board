@@ -14,7 +14,7 @@ Also note that the library dependencies seen in the *platformio.ini* file may no
 The example code was compiled and downloaded to the target device using the [PlatformIO](https://platformio.org/) development environment running on top of Microsoft's Visual Studio Code (VSCode ).
 - Create an empty Platformio project.
 - Replace the empty main.cpp in the 'src' directory with the main.cpp in the eaxample.
-- Add the library dependencies as directed in the [painlessMesh](https://gitlab.com/painlessMesh/painlessMesh) page.
+- Add the library dependencies as directed in the [painlessMesh](https://gitlab.com/painlessMesh/painlessMesh) site.
 - Compile and download to two or more QDEV-ESP8266 devices (nodes).
 
 You should expect to see that all nodes in the network are exchanging messages.
