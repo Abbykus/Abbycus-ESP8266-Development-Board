@@ -10,8 +10,6 @@ Please visit the [painlessMesh](https://gitlab.com/painlessMesh/painlessMesh) si
 
 Also note that the library dependencies seen in the *platformio.ini* file may not be the latest release versions. 
 
-Here is an article showing how to use with the [Arduino IDE](https://microcontrollerslab.com/esp-mesh-esp32-esp8266-painlessmesh-tutorial/).
-
 ### USAGE
 The example code was compiled and downloaded to the target device using the [PlatformIO](https://platformio.org/) development environment running on top of Microsoft's Visual Studio Code (VSCode ).
 - Create an empty Platformio project.
@@ -20,3 +18,5 @@ The example code was compiled and downloaded to the target device using the [Pla
 - Compile and download to two or more QDEV-ESP8266 devices (nodes).
 
 You should expect to see that all nodes in the network are exchanging messages.
+
+Here is an article showing how to use with the [Arduino IDE](https://microcontrollerslab.com/esp-mesh-esp32-esp8266-painlessmesh-tutorial/). Note that the definition MESH_PREFIX is now called MESH_SSID.
