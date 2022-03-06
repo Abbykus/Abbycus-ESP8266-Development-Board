@@ -12,3 +12,5 @@ The example code was originally published by Majenko Technologies and demonstrat
 - On your PC, laptop, or smartphone browser enter the *local IP* of the node in the browser address bar.
 - You should see a **HELLO from ESP8266** message and a random graph displayed.
 - Enjoy!
+
+For more information and examples please visit [esp8266/WebServer](https://github.com/esp8266/ESPWebServer).
