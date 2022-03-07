@@ -6,6 +6,5 @@ The ESP8266 can wake from deep sleep by connecting GPIO16 to the Reset (RST) bre
 
 See also:
 
-[ESP8266 Deep Sleep](https://randomnerdtutorials.com/esp8266-deep-sleep-with-arduino-ide/).
-
-[ESP8266 (ESP-12F) deep sleep and light sleep](https://kevinstadler.github.io/notes/esp8266-deep-sleep-light-sleep-arduino/).
+- [ESP8266 Deep Sleep](https://randomnerdtutorials.com/esp8266-deep-sleep-with-arduino-ide/).
+- [ESP8266 (ESP-12F) deep sleep and light sleep](https://kevinstadler.github.io/notes/esp8266-deep-sleep-light-sleep-arduino/).
