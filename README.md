@@ -46,6 +46,7 @@ Signal designators on the bottom of the PCB rotating clockwise:
 - **MISO** Not user available.
 - **IO9** Not user available.
 - **GND** Board ground connect.
+
 - **+5V** Input to the on-board 3.3V regulator (also connected to the USB-A 5V input).
 - **IO10** Not user available.
 - **MOSI** Not user available.
@@ -68,22 +69,24 @@ Three GPIO pins are used by the ESP8266 to control boot mode. The pin level duri
 - **IO2** UART download mode - pullup. Boot from flash - floating or pullup.
 - **IO15** UART download mode - pulldown. Boot from flash - pulldown.
 
-Additionally TXD0 should be held high during boot.
-The QDEV ESP8266 manages the state of the strapping pins during boot but any user circuitry connected to these pins should not interfere with the boot states shown above. 
+Additionally ***TXD0*** should be held high during boot.
+The QDEV ESP8266 manages the state of the strapping pins during boot but any user circuitry connected to these pins should not interfere with the strapping pin states during boot. 
 
-## USAGE
-The QDEV-ESP8266 is programmed through the USB-A connector.
+## USB DONGLE CONNECTOR
+The USB-A connector is the primary development and applications interface for the QDEV-ESP8266 board. 
+The connection provides 5V power to the board which is regulated down to 3.3V using a 500ma linear regulator.
+The USB-A also allows firmware download via a USB <-> Serial port.
+Following boot the application can use the Serial port as needed and supports baud rates up to 4Mb/sec.
 
 ## APPLICATION EXAMPLES
-### Wireless UART Bridge
-The QDEV-ESP8266 can function as a UART bridge between two or more computers. 
+See the *'Examples'* folder for working project ideas.
 
 ## FIRMWARE DEVELOPMENT
 Firmware can be developed on several platforms such as the Arduino IDE, PlatformIO on VSCode, or the Espressif ESP-IDF development environment. 
 The code examples included here were written using the [PlatformIO IDE](https://platformio.org/install/ide?install=vscode).
 
-While the Arduino IDE is relatively simple, the advanced features of PlatformIO make it much more compelling and useful to developers. 
+While the [Arduino IDE](https://www.arduino.cc/en/software) is relatively simple, the advanced features of PlatformIO make it much more compelling and useful to developers. 
 
-The Espressif ESP-IDF offers more detailed control of certain features but lacks the rich library support of either the Arduino IDE or PlatformIO and is specific to Espressif devices.
+The [Espressif ESP-IDF](https://idf.espressif.com/) offers more detailed control of certain features but lacks the rich library support of either the Arduino IDE or PlatformIO and is specific to Espressif devices.
 
 
