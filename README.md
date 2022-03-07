@@ -41,13 +41,13 @@ Signal designators on the bottom of the PCB rotating clockwise:
 - **IO14** GPIO 14 / HSPI CLK.
 - **IO12** GPIO 12 / HSPI_MISO.
 - **IO13** GPIO13 / HSPI_MOSI / UART0_CTS.
-- **3.3V** Output from internal regulator or Input to board if not powered from USB.
+- **3.3V** Output from internal regulator or Input to board if not powered from USB. *** Note 1.
 - **CS0** Not user available.
 - **MISO** Not user available.
 - **IO9** Not user available.
 - **GND** Board ground connect.
 
-- **+5V** Input to the on-board 3.3V regulator (also connected to the USB-A 5V input).
+- **+5V** 5V input to the on-board 3.3V regulator (connected to the USB-A 5V input). 5V input should not exceed 6.5V.
 - **IO10** Not user available.
 - **MOSI** Not user available.
 - **SCLK** Not user available.
@@ -72,7 +72,12 @@ Three GPIO pins are used by the ESP8266 to control boot mode. The pin level duri
 Additionally ***TXD0*** should be held high during boot.
 The QDEV ESP8266 manages the state of the strapping pins during boot but any user circuitry connected to these pins should not interfere with the strapping pin states during boot. 
 
-## USB DONGLE CONNECTOR
+**NOTES:**
+1) The 3.3V breakout pin can supply up to 300ma to external circuits. 3.3V can be input to the 3.3V breakout pin if the board is not being powered from the USB 5V input. Voltage applied to this pin should never exceed 3.3V.
+
+2) The ESP8266 MCU is not 5V tolerant. Voltage on any GPIO pin, ADC input, or RST should not exceed 3.3V.
+
+## USB-A CONNECTOR
 The USB-A connector is the primary development and applications interface for the QDEV-ESP8266 board. 
 The connection provides 5V power to the board which is regulated down to 3.3V using a 500ma linear regulator.
 The USB-A also allows firmware download via a USB <-> Serial port.
