@@ -3,3 +3,5 @@ The ESP8266 can enter a deep sleep mode which reduces the ESP8266 current consum
 In deep sleep all MCU peripherals are powered down except the Real Time Clock (RTC). 
 
 The ESP8266 can wake from deep sleep by connecting GPIO16 to the Reset (RST) breakout pin. See the sketch 'main_1.cpp' for a simple example.
+
+Also see [ESP8266 Deep Sleep](https://randomnerdtutorials.com/esp8266-deep-sleep-with-arduino-ide/) for more information.
