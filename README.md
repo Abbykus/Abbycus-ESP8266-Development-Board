@@ -47,7 +47,7 @@ Signal designators on the bottom of the PCB rotating clockwise:
 - **IO9** Not user available.
 - **GND** Board ground connect.
 
-- **+5V** 5V input to the on-board 3.3V regulator (connected to the USB-A 5V input). 5V input should not exceed 6.5V.
+- **+5V** 5V input to the on-board 3.3V regulator (also connected to the USB-A 5V input). 5V input should not exceed 6.5V.
 - **IO10** Not user available.
 - **MOSI** Not user available.
 - **SCLK** Not user available.
