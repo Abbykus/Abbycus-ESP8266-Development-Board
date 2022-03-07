@@ -1,4 +1,4 @@
-## MICROPYTHON ON THE ESP8266
+## MicroPython ON THE ESP8266
 
 The QDEV-ESP8266 is capable of running the MicroPython interpreted language. 
 MicroPython is a memory efficient and scaled down version of the popular Python high level scripting language.
