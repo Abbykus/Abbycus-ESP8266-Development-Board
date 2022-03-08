@@ -1,7 +1,7 @@
 ## MicroPython ON THE ESP8266
 
 The QDEV-ESP8266 is capable of running the MicroPython interpreted language. 
-MicroPython is a memory efficient and scaled down version of the popular Python high level scripting language.
+MicroPython is an embedded and scaled down version of the popular Python high level scripting language.
 
 Please read [MicroPython language and implementation](https://docs.micropython.org/en/latest/reference/index.html) for more information.
 
@@ -9,7 +9,7 @@ Please read [MicroPython language and implementation](https://docs.micropython.o
 
 To install MicroPython firmware on the QDEV ESP8266 board see [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#intro).
 
-See [MicroPython for the ESP8266](http://www.micropython.org/download/?port=esp8266) for the latest firmware release.
+Also see [MicroPython for the ESP8266](http://www.micropython.org/download/?port=esp8266) for the latest firmware release.
 
 Once you have installed MicroPython on the QDEV ESP8266 board you can connect to the board via the Serial monitor in your development environment or a serial terminal emulator such as [screen](https://linuxhint.com/screen-linux/) for Linux. You should expect to see a '>>>' prompt indicating the interactive mode where you can enter MicroPython commands or entire scripts manually.
 
