@@ -21,6 +21,9 @@ Visit [Here](https://pypi.org/project/adafruit-ampy/) for instructions on instal
 ### RUN A PYTHON SCRIPT
 Using the above utility ***Ampy*** you can execute python scripts from the host PC.
 A very simple script to blink the on-board LED can be run as follows:
+- Copy the main.py and blink.py files to a folder on the host PC. 
+- Open a terminal on the host PC and navigate to the above folder.
+- Type one of the following (depending on your OS):
 
 ampy --port /dev/ttyUSB0 run blink.py   *LINUX or MAC*
 
