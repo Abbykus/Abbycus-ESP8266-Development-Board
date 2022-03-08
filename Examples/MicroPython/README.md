@@ -18,3 +18,11 @@ In order to develop scripts that autorun after the QDEV ESP8266 module boots, yo
 
 Visit [Here](https://pypi.org/project/adafruit-ampy/) for instructions on installation and use of ***ampy***. 
 
+### RUN A PYTHON SCRIPT
+Using the above utility ***Ampy*** you can execute python scripts from the host PC.
+A very simple script to blink the on-board LED can be run as follows:
+
+ampy --port /dev/ttyUSB0 run blink.py   *LINUX or MAC*
+
+ampy --port COM5 run blink.py   *Windows*
+
