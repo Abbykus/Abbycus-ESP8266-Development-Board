@@ -9,7 +9,9 @@ Please read [MicroPython language and implementation](https://docs.micropython.o
 
 To install MicroPython firmware on the QDEV ESP8266 board see [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#intro).
 
-Once you have installed MicroPython on the QDEV ESP8266 board you can connect to the board via the Serial monitor in your development environment. You should expect to see a '>>>' prompt where you can begin to enter MicroPython commands or entire scripts manually.
+See [MicroPython for the ESP8266](http://www.micropython.org/download/?port=esp8266) for the latest firmware release.
+
+Once you have installed MicroPython on the QDEV ESP8266 board you can connect to the board via the Serial monitor in your development environment or a serial terminal emulator such as [screen](https://linuxhint.com/screen-linux/) for Linux. You should expect to see a '>>>' prompt indicating the interactive mode where you can enter MicroPython commands or entire scripts manually.
 
 ### INSTALL AMPY
 In order to develop scripts for the QDEV ESP8266 module, you should install the AdaFruit MicroPython Tool ***ampy*** on your host PC which is a utility to interact with a MicroPython board (QDEV ESP8266) through the serial connection.
@@ -51,5 +53,8 @@ ampy --port COM5 ls   *Windows*
 
 Now when the board is powered up or reset the LED will blink once per second for 30 seconds.
 
+You can remove the main.py by typing:
+
+ampy --port /dev/ttyUSB0 rm main.py
 
 
