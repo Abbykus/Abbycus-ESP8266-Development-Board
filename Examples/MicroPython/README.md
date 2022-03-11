@@ -41,15 +41,15 @@ MicroPython executes two files after booting:
 
 Use ***Ampy*** to transfer main.py to the MicroPython board:
 
-ampy --port /dev/ttyUSB0 put main.py    *Linux / MacOS*
+ampy --port /dev/ttyUSB0 put main.py    *(Linux / MacOS)*
 
-ampy --port COM5 put main.py    *Windows*
+ampy --port COM5 put main.py    *(Windows)*
 
 To confirm that the file has been saved to the MicroPython board type:
 
-ampy --port /dev/ttyUSB0 ls   *Linux / MacOS*
+ampy --port /dev/ttyUSB0 ls   *(Linux / MacOS)*
 
-ampy --port COM5 ls   *Windows*
+ampy --port COM5 ls   *(Windows)*
 
 Now when the board is powered up or reset the LED will blink once per second for 30 seconds.
 
@@ -57,11 +57,7 @@ You can remove the main.py by typing:
 
 ampy --port /dev/ttyUSB0 rm main.py
 
-### MICROPYTHON IDE
-There are several choices of an Integrated Development Environment (IDE) that can be used to develop and deploy Micropython code. The choices that are included here run on all major OS's; Windows, MacOS, & Linux.
 
-#### THONNY
-A very basic Python IDE with a MicroPython plugin that allows running Python scripts on the QDEV-ESP8266.
 
 
 
