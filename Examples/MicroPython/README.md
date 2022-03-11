@@ -31,15 +31,15 @@ A very simple script to blink the on-board LED can be run as follows:
 
 ***ampy --port COM5 run blink.py***   *(Windows)*
 
-NOTE: Your USB Serial port may be different than shown.
+**NOTE:** Your USB Serial port may be different than shown.
 
 Now you should see the ESP-12F LED blink once per second for 30 seconds.
 
 ### AUTO-RUN PYTHON SCRIPTS
 Python scripts can be automatically executed after Micropython boots.
 MicroPython executes two files after booting:
-- boot.py   This file contains setup information and normally does not need modification.
-- main.py   If this file exists it will be executed after boot.py. This is where your Python script is. 
+- ***boot.py***   This file contains setup information and normally does not need modification.
+- ***main.py***   If this file exists it will be executed after boot.py. This is where your Python script is. 
 
 Use ***Ampy*** to transfer main.py to the MicroPython board:
 
