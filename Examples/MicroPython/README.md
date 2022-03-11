@@ -27,9 +27,9 @@ A very simple script to blink the on-board LED can be run as follows:
 - Open a terminal on the host PC and navigate to the above folder.
 - Type one of the following (depending on your OS):
 
-ampy --port /dev/ttyUSB0 run blink.py   *Linux or MacOS*
+***ampy --port /dev/ttyUSB0 run blink.py***   *(Linux or MacOS)*
 
-ampy --port COM5 run blink.py   *Windows*
+***ampy --port COM5 run blink.py***   *(Windows)*
 
 Now you should see the ESP-12F LED blink once per second for 30 seconds.
 
@@ -37,25 +37,25 @@ Now you should see the ESP-12F LED blink once per second for 30 seconds.
 Python scripts can be automatically executed after Micropython boots.
 MicroPython executes two files after booting:
 - boot.py   This file contains setup information and normally does not need modification.
-- main.py   If this file exists it will be executed after boot.py.
+- main.py   If this file exists it will be executed after boot.py. This is where your Python script is. 
 
 Use ***Ampy*** to transfer main.py to the MicroPython board:
 
-ampy --port /dev/ttyUSB0 put main.py    *(Linux / MacOS)*
+***ampy --port /dev/ttyUSB0 put main.py***    *(Linux / MacOS)*
 
-ampy --port COM5 put main.py    *(Windows)*
+***ampy --port COM5 put main.py***    *(Windows)*
 
 To confirm that the file has been saved to the MicroPython board type:
 
-ampy --port /dev/ttyUSB0 ls   *(Linux / MacOS)*
+***ampy --port /dev/ttyUSB0 ls***   *(Linux / MacOS)*
 
-ampy --port COM5 ls   *(Windows)*
+***ampy --port COM5 ls***   *(Windows)*
 
 Now when the board is powered up or reset the LED will blink once per second for 30 seconds.
 
 You can remove the main.py by typing:
 
-ampy --port /dev/ttyUSB0 rm main.py
+***ampy --port /dev/ttyUSB0 rm main.py***
 
 
 
