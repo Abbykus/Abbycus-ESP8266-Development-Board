@@ -1,13 +1,13 @@
 ## MicroPython ON THE ESP8266
 
 The QDEV-ESP8266 is capable of running the MicroPython interpreted language. 
-MicroPython is an compact Python interpretor that can run on embedded platforms. Using the familiar Python programming language you can talk to hardware and control it, much like controlling hardware with an Arduino or other embedded board. The QDEV ESP8266 board makes it easy to get started using MicroPython. Thanks to recent contributions to MicroPython you can turn an ESP8266 into a MicroPython device.
+MicroPython is a compact Python interpreter that can run on embedded platforms. Using the familiar Python programming language you can talk to hardware and control it, much like controlling hardware with an Arduino or other embedded boards. The QDEV ESP8266 board makes it easy to get started using MicroPython and thanks to recent contributions to MicroPython, you can turn a QDEV-ESP8266 into a MicroPython device.
 
 Please read [MicroPython language and implementation](https://docs.micropython.org/en/latest/reference/index.html) for more information.
 
 ### INSTALL MICROPYTHON 
 
-To install MicroPython firmware on the QDEV ESP8266 board see [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#intro).
+To install MicroPython firmware on the QDEV-ESP8266 board see [Quick reference for the ESP8266](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#intro).
 
 Also see [MicroPython for the ESP8266](http://www.micropython.org/download/?port=esp8266) for the latest firmware release.
 
@@ -56,5 +56,12 @@ Now when the board is powered up or reset the LED will blink once per second for
 You can remove the main.py by typing:
 
 ampy --port /dev/ttyUSB0 rm main.py
+
+### MICROPYTHON IDE
+There are several choices of an Integrated Development Environment (IDE) that can be used to develop and deploy Micropython code. The choices that are included here run on all major OS's; Windows, MacOS, & Linux.
+
+#### THONNY
+A very basic Python IDE with a MicroPython plugin that allows running Python scripts on the QDEV-ESP8266.
+
 
 
