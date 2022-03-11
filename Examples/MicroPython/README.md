@@ -31,6 +31,8 @@ A very simple script to blink the on-board LED can be run as follows:
 
 ***ampy --port COM5 run blink.py***   *(Windows)*
 
+NOTE: Your USB Serial port may be different than shown.
+
 Now you should see the ESP-12F LED blink once per second for 30 seconds.
 
 ### AUTO-RUN PYTHON SCRIPTS
