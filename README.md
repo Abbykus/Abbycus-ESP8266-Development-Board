@@ -75,9 +75,9 @@ Additionally ***TXD0*** should be held high during boot.
 The QDEV ESP8266 manages the state of the strapping pins during boot but any user circuitry connected to these pins should not interfere with the strapping pin states during boot. 
 
 **NOTES:**
-1) The 3.3V breakout pin can supply up to 300ma to external circuits. 3.3V can be input to the 3.3V breakout pin if the board is not being powered from the USB 5V input. Voltage applied to this pin should never exceed 3.3V.
+1) The 3.3V breakout pin can supply up to 300ma to external circuits. 3.3V power can be input to the 3.3V breakout pin if the board is not being powered from the USB 5V input. Any external voltage applied to this pin should not exceed 3.3V.
 
-2) The ESP8266 MCU is not 5V tolerant. Voltage on any GPIO pin, ADC input, or RST should not exceed 3.3V.
+2) The ESP8266 MCU is not 5V tolerant. Voltage on any GPIO pin, RXD, TXD, ADC, or RST pin should not exceed 3.3V.
 
 ## USB-A CONNECTOR
 The USB-A connector is the primary development and applications interface for the QDEV-ESP8266 board. 
