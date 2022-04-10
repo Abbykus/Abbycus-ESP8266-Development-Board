@@ -61,6 +61,9 @@ You can remove the *main.py* by typing:
 
 ***ampy --port /dev/ttyUSB0 rm main.py***
 
+## microPy-IDE
+As an alternative to running the command line *Ampy* please see the **microPy-IDE** in the Abbykus repositories.
+
 
 
 
