@@ -17,7 +17,7 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 - 9 GPIO's available with PWM and low power wakeup capability.
 - UART supporting baud rates up to 4.608 Mbits/sec.
 - I2C, I2S, and SPI interfaces are supported.
-- Many examples of SDK support [here](https://en.wikipedia.org/wiki/ESP8266).
+- Many examples of SDK support can be found [here](https://en.wikipedia.org/wiki/ESP8266).
 - Auto-programming circuit (eliminates the 'boot' button).
 - On board user LED (IO0).
 
