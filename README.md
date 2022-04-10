@@ -96,4 +96,4 @@ While the [Arduino IDE](https://www.arduino.cc/en/software) is relatively simple
 
 The [Espressif ESP-IDF](https://idf.espressif.com/) offers more detailed control of certain features but lacks the rich library support of either the Arduino IDE or PlatformIO and is specific to Espressif devices.
 
-
+Additionally the QDEV-ESP8266 supports microPython. See Examples for more info.
