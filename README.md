@@ -16,6 +16,7 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 - 1 channel 10-bit Analog to Digital converter (ADC).
 - 9 GPIO's available with PWM and low power wakeup capability.
 - UART supporting baud rates up to 4.608 Mbits/sec.
+- I2C, I2S, and SPI interfaces are supported.
 - Auto-programming circuit (eliminates the 'boot' button).
 - On board user LED (IO0).
 
@@ -28,7 +29,7 @@ The QDEV-ESP8266 is a powerful and cost effective development/product ready plat
 The board can accept either 5 volts or 3.3 volts. 5 volts is normally supplied via the USB-A connector but can also be input on the +5V breakout pin.
 5 volt power is regulated down to 3.3 volts using a compact linear regulator. 3.3 volts can also be input on the 3.3V breakout pin.
 
-**NOTE:** The board is not 5V tolerant. Board power on the 3.3V breakout pin or any I/O pin should not exceed 3.3V.
+**NOTE:** The board I/O pins are not 5V tolerant. Board power on the 3.3V breakout pin or any I/O pin should not exceed 3.3V.
 
 Typical operating current can range from microamps in deep sleep mode to approximately 160 milliamps when transmitting WiFi data. 
 
