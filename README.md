@@ -44,28 +44,28 @@ Signal designators on the bottom of the PCB rotating clockwise:
 - **IO12** GPIO 12 / HSPI_MISO.
 - **IO13** GPIO13 / HSPI_MOSI / UART0_CTS.
 - **3.3V** Output from internal regulator or Input to board if not powered from USB. *** Note 1.
-- **CS0** Not user available.
-- **MISO** Not user available.
-- **IO9** Not user available.
+- **CS0** *Not user available.*
+- **MISO** *Not user available.*
+- **IO9** *Not user available.*
 - **GND** Board ground connect.
 
 - **+5V** 5V input to the on-board 3.3V regulator (also connected to the USB-A 5V input). 5V input should not exceed 6.5V.
-- **IO10** Not user available.
-- **MOSI** Not user available.
-- **SCLK** Not user available.
+- **IO10** *Not user available.*
+- **MOSI** *Not user available.*
+- **SCLK** *Not user available.*
 - **GND** Board ground connect.
-- **IO15** GPIO15 / MTDO / HSPICS / UART0_RTS. ** STRAPPING PIN **
-- **IO2** GPIO2 / UART1_TXD. ** STRAPPING PIN **
-- **IO0** GPIO0 / HSPI_MISO / I2S_DATA. ** STRAPPING PIN **
+- **IO15** GPIO15 / MTDO / HSPICS / UART0_RTS. ** *STRAPPING PIN* **
+- **IO2** GPIO2 / UART1_TXD. ** *STRAPPING PIN* **
+- **IO0** GPIO0 / HSPI_MISO / I2S_DATA. ** *STRAPPING PIN* **
 - **IO4** GPIO4.
 - **IO5** GPIO5 / IR_R.
 - **RXD** UART0_RXD / GPIO3.
 - **TXD** UART0_TXD / GPIO1. ** STRAPPING PIN **
 
-#### *NOT USER AVAILABLE PINS*
+#### *"NOT USER AVAILABLE" PINS*
 Several pins labeled "Not user available" are used internally by the ESP-12F module. These signals are provided on the breakout pins but should not be connected externally.
 
-#### *STRAPPING PINS*
+#### *"STRAPPING" PINS*
 Three GPIO pins are used by the ESP8266 to control boot mode. The pin level during boot is as follows:
 - **IO0** UART download mode - pulldown. Boot from flash - floating or pullup. 
 - **IO2** UART download mode - pullup. Boot from flash - floating or pullup.
