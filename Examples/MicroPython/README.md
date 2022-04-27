@@ -14,7 +14,7 @@ Also see [MicroPython for the ESP8266](http://www.micropython.org/download/?port
 Once you have installed MicroPython on the QDEV ESP8266 board you can connect to the board via the Serial monitor in your development environment or a serial terminal emulator such as [screen](https://linuxhint.com/screen-linux/) for Linux. You should expect to see a '>>>' prompt indicating the interactive mode where you can enter MicroPython commands or entire scripts manually.
 
 ### INSTALL AMPY
-In order to develop scripts for the QDEV ESP8266 module, you should install the AdaFruit MicroPython Tool ***ampy*** on your host PC which is a utility to interact with a MicroPython board (QDEV ESP8266) through the serial connection.
+To aid script development for the QDEV ESP8266 module, you can install the AdaFruit MicroPython Tool ***ampy*** on your host PC which is a utility to interact with a MicroPython board (QDEV ESP8266) through the serial connection.
 
 ***Ampy*** is a simple command line tool to manipulate files and run code on a MicroPython board. With ***ampy*** you can send files from your computer to the board's file system, download files from a board to your computer, and even send a Python script to a board to be executed.
 
@@ -62,7 +62,7 @@ You can remove the *main.py* by typing:
 ***ampy --port /dev/ttyUSB0 rm main.py***
 
 ## microPy-IDE
-As an alternative to running the command line *Ampy* please see the **microPy-IDE** in the Abbykus repositories.
+As an alternative to running the command line *Ampy* please see the **microPy-IDE** in the Abbykus repositories. This development tool is specifically designed to create and test microPython scripts on various boards that support microPython.
 
 
 
