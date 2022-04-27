@@ -1,7 +1,7 @@
 ## MicroPython ON THE ESP8266
 
 The QDEV-ESP8266 is capable of running the MicroPython interpreted language. 
-MicroPython is a compact Python interpreter that can run on embedded platforms. Using the familiar Python programming language you can talk to hardware and control it, much like controlling hardware with an Arduino or other embedded boards. The QDEV ESP8266 board makes it easy to get started using MicroPython and thanks to recent contributions to MicroPython, you can turn a QDEV-ESP8266 into a MicroPython device.
+MicroPython is a compact Python interpreter that can run on embedded platforms with very limited memory. Using the familiar Python programming language you can talk to hardware and control it, much like controlling hardware with an Arduino or other embedded boards. The QDEV ESP8266 board makes it easy to get started using MicroPython and thanks to recent contributions to MicroPython, you can turn a QDEV-ESP8266 into a MicroPython device.
 
 Please read [MicroPython language and implementation](https://docs.micropython.org/en/latest/reference/index.html) for more information.
 
